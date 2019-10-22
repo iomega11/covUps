@@ -844,8 +844,7 @@
         </OBJECT>
       </COMP>
       <COMP relation="Product">
-        <COMPID name="Diagramme de séquence système" mc="Standard.SequenceDiagram" uid="5269bdc7-5840-4053-92cd-27f4abe0e631"/>
-        <COMPID name="Interaction Sequence diagram" mc="Standard.SequenceDiagram" uid="e4e54aad-585d-4b3a-8ca1-68fa45bd52c9"/>
+        <COMPID name="Diagramme de séquence système" mc="Standard.SequenceDiagram" uid="3d3108d6-a782-4941-9eaa-0a1e0b47cc05"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

@@ -15,6 +15,7 @@
     <DEPENDENCIES>
       <COMP relation="OwnedBehavior">
         <COMPID name="Modélisation des processus métier" mc="Standard.Activity" uid="258d232c-1e45-4f51-9e68-4ff400963425"/>
+        <COMPID name="Interaction" mc="Standard.Interaction" uid="be3b178d-5ef3-44db-af65-7f0b1789ff63"/>
       </COMP>
       <COMP relation="OwnedElement">
         <COMPID name="Profil" mc="Standard.Class" uid="65aec15d-d88e-46ef-8d43-e0ecaa21454b"/>
@@ -33,7 +34,7 @@
         <COMPID name="S'identifier" mc="Standard.UseCase" uid="3bafcdcb-5411-42ac-b85e-2ca145db1a6a"/>
         <COMPID name="Voiture" mc="Standard.Class" uid="6dfaff66-0d59-4d87-9b80-1b4ddb7ba629"/>
         <COMPID name="Utilisateur" mc="Standard.Actor" uid="6aa344ce-f588-45cb-bbaa-21addeab9ecb"/>
-        <COMPID name="Service de Taxi" mc="Standard.Actor" uid="b4bea06a-e840-4886-901e-f773e87acfae"/>
+        <COMPID name="Capitole Taxi" mc="Standard.Actor" uid="b4bea06a-e840-4886-901e-f773e87acfae"/>
         <COMPID name="Service d'authentification de l'UPS" mc="Standard.Actor" uid="882d612e-2e39-4994-9084-4bf95a2e2a2c"/>
         <COMPID name="Conducteur" mc="Standard.Actor" uid="05be8586-b7f1-43e0-a548-9d77e2e43925"/>
         <COMPID name="Passager" mc="Standard.Actor" uid="22f7ce86-23b6-4fe5-9fa4-83a5e0f1d3a6"/>
@@ -42,7 +43,7 @@
         <COMPID name="Modifier son profil" mc="Standard.UseCase" uid="df3a50b8-f1d3-4a2a-95d2-9fb25f013ca5"/>
         <COMPID name="Enregistrer une voiture" mc="Standard.UseCase" uid="123ff8bd-9038-45eb-9cb2-8b6d4c8aa8b0"/>
         <COMPID name="Supprimer une voiture" mc="Standard.UseCase" uid="d438f4d0-45c0-484c-8c8b-5298920f4942"/>
-        <COMPID name="Consulter ses voitures" mc="Standard.UseCase" uid="afe92dd5-1ed6-4ebc-9df8-486cb582d179"/>
+        <COMPID name="Choisir une voiture" mc="Standard.UseCase" uid="afe92dd5-1ed6-4ebc-9df8-486cb582d179"/>
         <COMPID name="Modifier une voiture" mc="Standard.UseCase" uid="ef181c05-3fd1-4fd4-9074-0165413b2a61"/>
         <COMPID name="Afficher un trajet en détail" mc="Standard.UseCase" uid="76a9b9eb-da70-422f-bde7-d5da7554b413"/>
         <COMPID name="Plateforme InfoPoints" mc="Standard.Actor" uid="c909508d-f632-4e12-8663-4169ad29c812"/>
