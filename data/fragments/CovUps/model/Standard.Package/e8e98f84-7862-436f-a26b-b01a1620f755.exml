@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="covups" version="4">
+  <OBJECT>
+    <ID name="covups" mc="Standard.Package" uid="e8e98f84-7862-436f-a26b-b01a1620f755"/>
+    <PID name="CovUps" mc="Standard.Project" uid="2935b8a1-211c-4f5f-856d-263bc372f30d"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[covups]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Modélisation des processus métier" mc="Standard.Activity" uid="258d232c-1e45-4f51-9e68-4ff400963425"/>
+      </COMP>
+      <COMP relation="OwnedElement">
+        <COMPID name="Profil" mc="Standard.Class" uid="65aec15d-d88e-46ef-8d43-e0ecaa21454b"/>
+        <COMPID name="Trajet" mc="Standard.Class" uid="26154eef-77a6-4e8f-9b05-495d87cd0641"/>
+        <COMPID name="Message" mc="Standard.Class" uid="3c77de52-58d5-403c-addd-0e48b3fac00f"/>
+        <COMPID name="Evaluation" mc="Standard.Class" uid="d9fcc1a0-9929-4a93-a714-a751e65816bf"/>
+        <COMPID name="Publier un nouveau trajet" mc="Standard.UseCase" uid="3e0772a0-7b86-4441-a2e9-a1022025014e"/>
+        <COMPID name="Rechercher parmi les trajets proposés" mc="Standard.UseCase" uid="f7c371ea-3e35-4c23-9847-013880408c76"/>
+        <COMPID name="Envoyer un message" mc="Standard.UseCase" uid="ad003671-c49b-4a81-9fa9-18aa8e885caa"/>
+        <COMPID name="Lire un message" mc="Standard.UseCase" uid="c638c8fb-2d81-419c-b458-be659a46ad0c"/>
+        <COMPID name="Ajouter un passager dans un trajet" mc="Standard.UseCase" uid="2ac0d584-7866-4a4a-966c-b278a0576a9b"/>
+        <COMPID name="Annuler un trajet" mc="Standard.UseCase" uid="e3461227-7778-4bfd-af53-20750dfcdbb4"/>
+        <COMPID name="Libérer sa place dans un trajet" mc="Standard.UseCase" uid="12dc2012-9ee3-4962-9d56-2f48d14bfc38"/>
+        <COMPID name="Réserver un taxi en urgence" mc="Standard.UseCase" uid="48fe16e0-66e6-4ce9-b627-576ca505fe5e"/>
+        <COMPID name="Évaluer un utilisateur suite à un trajet" mc="Standard.UseCase" uid="3a645647-d2ff-48ef-9655-3f3da0081b8c"/>
+        <COMPID name="S'identifier" mc="Standard.UseCase" uid="3bafcdcb-5411-42ac-b85e-2ca145db1a6a"/>
+        <COMPID name="Voiture" mc="Standard.Class" uid="6dfaff66-0d59-4d87-9b80-1b4ddb7ba629"/>
+        <COMPID name="Utilisateur" mc="Standard.Actor" uid="6aa344ce-f588-45cb-bbaa-21addeab9ecb"/>
+        <COMPID name="Service de Taxi" mc="Standard.Actor" uid="b4bea06a-e840-4886-901e-f773e87acfae"/>
+        <COMPID name="Service d'authentification de l'UPS" mc="Standard.Actor" uid="882d612e-2e39-4994-9084-4bf95a2e2a2c"/>
+        <COMPID name="Conducteur" mc="Standard.Actor" uid="05be8586-b7f1-43e0-a548-9d77e2e43925"/>
+        <COMPID name="Passager" mc="Standard.Actor" uid="22f7ce86-23b6-4fe5-9fa4-83a5e0f1d3a6"/>
+        <COMPID name="Rechercher parmi les trajets auxquels il a participé" mc="Standard.UseCase" uid="3e54900b-c19e-4749-a2ff-426c19b31677"/>
+        <COMPID name="Consulter un profil utilisateur" mc="Standard.UseCase" uid="a066f6be-caf1-4c47-9f3d-0d91438a8a52"/>
+        <COMPID name="Modifier son profil" mc="Standard.UseCase" uid="df3a50b8-f1d3-4a2a-95d2-9fb25f013ca5"/>
+        <COMPID name="Enregistrer une voiture" mc="Standard.UseCase" uid="123ff8bd-9038-45eb-9cb2-8b6d4c8aa8b0"/>
+        <COMPID name="Supprimer une voiture" mc="Standard.UseCase" uid="d438f4d0-45c0-484c-8c8b-5298920f4942"/>
+        <COMPID name="Consulter ses voitures" mc="Standard.UseCase" uid="afe92dd5-1ed6-4ebc-9df8-486cb582d179"/>
+        <COMPID name="Modifier une voiture" mc="Standard.UseCase" uid="ef181c05-3fd1-4fd4-9074-0165413b2a61"/>
+        <COMPID name="Afficher un trajet en détail" mc="Standard.UseCase" uid="76a9b9eb-da70-422f-bde7-d5da7554b413"/>
+        <COMPID name="Plateforme InfoPoints" mc="Standard.Actor" uid="c909508d-f632-4e12-8663-4169ad29c812"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Modélisation du domaine métier" mc="Standard.ClassDiagram" uid="151fb668-c84f-470b-b911-c4e45eb92e45"/>
+        <COMPID name="Diagramme de cas d'utilisation" mc="Standard.UseCaseDiagram" uid="eadd737c-df9a-4691-af4f-1f7f728a0705"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
