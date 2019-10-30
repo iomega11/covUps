@@ -72,15 +72,12 @@
         <REFOBJ>
           <ID name="auteur" mc="Standard.AssociationEnd" uid="ff2b25ee-c469-42e3-b7cc-88a415962769"/>
         </REFOBJ>
-        <REFOBJ>
-          <ID name="sujetÉvalué" mc="Standard.AssociationEnd" uid="854726a4-dca3-4dbb-a8b8-a53d8020eb42"/>
-        </REFOBJ>
       </COMP>
       <COMP relation="Descriptor">
         <OBJECT>
           <ID name="Note" mc="Infrastructure.Note" uid="fc59d914-6c35-459d-a053-77c213e9b0c6"/>
           <ATTRIBUTES>
-            <ATT name="Content"><![CDATA[la note va de 0 à 5]]></ATT>
+            <ATT name="Content"><![CDATA[la note va de 0 à 5.]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
             <ATT name="Name"><![CDATA[Note]]></ATT>
             <ATT name="status">1970354901745664</ATT>

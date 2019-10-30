@@ -93,9 +93,6 @@
         <REFOBJ>
           <ID name="auteur" mc="Standard.AssociationEnd" uid="22d0bfe1-4b93-4e43-bf5a-f2678273d54c"/>
         </REFOBJ>
-        <REFOBJ>
-          <ID name="destinataire" mc="Standard.AssociationEnd" uid="23e929bd-81b9-49e0-9e73-0431462fbfb0"/>
-        </REFOBJ>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>
