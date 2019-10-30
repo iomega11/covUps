@@ -1,5 +1,5 @@
-#Tue Oct 22 10:01:02 CEST 2019
-org.modelio.diagram.editor.OpenedDiagrams4='Interaction Sequence diagram' {c3804a63-b1d1-4642-bd06-34273b0f841f} Standard.SequenceDiagram
+#Wed Oct 30 12:18:15 CET 2019
+org.modelio.diagram.editor.OpenedDiagrams4='Diagramme de s\u00E9quences d\u00E9taill\u00E9 Recherche de trajet' {c3804a63-b1d1-4642-bd06-34273b0f841f} Standard.SequenceDiagram
 org.modelio.diagram.editor.OpenedDiagrams3='Diagramme de s\u00E9quence syst\u00E8me' {3d3108d6-a782-4941-9eaa-0a1e0b47cc05} Standard.SequenceDiagram
 org.modelio.diagram.editor.OpenedDiagrams2='Diagramme de cas d'utilisation' {eadd737c-df9a-4691-af4f-1f7f728a0705} Standard.UseCaseDiagram
 org.modelio.diagram.editor.OpenedDiagrams1='Mod\u00E9lisation du domaine m\u00E9tier' {151fb668-c84f-470b-b911-c4e45eb92e45} Standard.ClassDiagram
