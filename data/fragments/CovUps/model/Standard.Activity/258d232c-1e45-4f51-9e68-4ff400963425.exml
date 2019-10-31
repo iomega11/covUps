@@ -501,9 +501,6 @@
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
-                  <LINK relation="Type">
-                    <ID name="Message" mc="Standard.Class" uid="3c77de52-58d5-403c-addd-0e48b3fac00f"/>
-                  </LINK>
                   <COMP relation="Outgoing">
                     <OBJECT>
                       <ID name="ObjectFlow" mc="Standard.ObjectFlow" uid="60c6a6ce-3f18-43ae-af00-31e7090463d7"/>
@@ -677,11 +674,7 @@
                   <ATT name="Name"><![CDATA[[Passager]]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
-                <DEPENDENCIES>
-                  <LINK relation="Type">
-                    <ID name="Evaluation" mc="Standard.Class" uid="d9fcc1a0-9929-4a93-a714-a751e65816bf"/>
-                  </LINK>
-                </DEPENDENCIES>
+                <DEPENDENCIES></DEPENDENCIES>
               </OBJECT>
               <OBJECT>
                 <ID name="[Confirmation de participation au trajet]" mc="Standard.InstanceNode" uid="7dfe4619-1f2c-4903-b3dd-e935c73c77a6"/>
@@ -694,9 +687,6 @@
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
-                  <LINK relation="Type">
-                    <ID name="Message" mc="Standard.Class" uid="3c77de52-58d5-403c-addd-0e48b3fac00f"/>
-                  </LINK>
                   <COMP relation="Outgoing">
                     <OBJECT>
                       <ID name="ObjectFlow" mc="Standard.ObjectFlow" uid="4576c2f7-82a3-4c77-a15b-a88134c0342b"/>
@@ -1304,11 +1294,7 @@
                   <ATT name="Name"><![CDATA[[Conducteur]]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
-                <DEPENDENCIES>
-                  <LINK relation="Type">
-                    <ID name="Evaluation" mc="Standard.Class" uid="d9fcc1a0-9929-4a93-a714-a751e65816bf"/>
-                  </LINK>
-                </DEPENDENCIES>
+                <DEPENDENCIES></DEPENDENCIES>
               </OBJECT>
               <OBJECT>
                 <ID name="Decision-Merge2" mc="Standard.DecisionMergeNode" uid="603330b8-be3e-45ad-8b6d-80d9d40d7d26"/>

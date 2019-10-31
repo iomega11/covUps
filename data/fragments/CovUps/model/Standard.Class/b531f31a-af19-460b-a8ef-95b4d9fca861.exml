@@ -130,8 +130,8 @@
                 <ID name="p1" mc="Standard.Parameter" uid="88dde619-7510-4559-b34b-b4862250450f"/>
                 <ATTRIBUTES>
                   <ATT name="ParameterPassing">In</ATT>
-                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
-                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[*]]></ATT>
                   <ATT name="TypeConstraint"></ATT>
                   <ATT name="DefaultValue"></ATT>
                   <ATT name="IsOrdered">false</ATT>
@@ -144,7 +144,7 @@
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <LINK relation="Type">
-                    <ID name="TrajetRepository" mc="Standard.Class" uid="55587dae-cc51-4916-a2f8-df780f3b34ce"/>
+                    <ID name="Trajet" mc="Standard.Class" uid="26154eef-77a6-4e8f-9b05-495d87cd0641"/>
                   </LINK>
                 </DEPENDENCIES>
               </OBJECT>
@@ -215,8 +215,8 @@
                 <ID name="p3" mc="Standard.Parameter" uid="84d2130a-e07d-41de-aa47-3b6887415fec"/>
                 <ATTRIBUTES>
                   <ATT name="ParameterPassing">In</ATT>
-                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
-                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[*]]></ATT>
                   <ATT name="TypeConstraint"></ATT>
                   <ATT name="DefaultValue"></ATT>
                   <ATT name="IsOrdered">false</ATT>
@@ -229,7 +229,7 @@
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <LINK relation="Type">
-                    <ID name="TrajetRepository" mc="Standard.Class" uid="55587dae-cc51-4916-a2f8-df780f3b34ce"/>
+                    <ID name="Trajet" mc="Standard.Class" uid="26154eef-77a6-4e8f-9b05-495d87cd0641"/>
                   </LINK>
                 </DEPENDENCIES>
               </OBJECT>
@@ -250,7 +250,7 @@
             <ATT name="IsUnique">false</ATT>
             <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
             <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
-            <ATT name="Visibility">Public</ATT>
+            <ATT name="Visibility">Private</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
             <ATT name="Name"><![CDATA[depart]]></ATT>
@@ -274,7 +274,7 @@
             <ATT name="IsUnique">false</ATT>
             <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
             <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
-            <ATT name="Visibility">Public</ATT>
+            <ATT name="Visibility">Private</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
             <ATT name="Name"><![CDATA[arrivee]]></ATT>
@@ -289,7 +289,7 @@
       </COMP>
       <COMP relation="OwnedEnd">
         <OBJECT>
-          <ID name="listeTrajets" mc="Standard.AssociationEnd" uid="915997d1-a682-4198-b868-c0c77e85fa79"/>
+          <ID name="repertoireTrajets" mc="Standard.AssociationEnd" uid="915997d1-a682-4198-b868-c0c77e85fa79"/>
           <ATTRIBUTES>
             <ATT name="Aggregation">KindIsAssociation</ATT>
             <ATT name="IsChangeable">true</ATT>
@@ -299,10 +299,10 @@
             <ATT name="IsUnique">false</ATT>
             <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
             <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
-            <ATT name="Visibility">Public</ATT>
+            <ATT name="Visibility">Private</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[listeTrajets]]></ATT>
+            <ATT name="Name"><![CDATA[repertoireTrajets]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -329,7 +329,7 @@
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <COMP relation="Opposite">
-                    <COMPID name="listeTrajets" mc="Standard.AssociationEnd" uid="915997d1-a682-4198-b868-c0c77e85fa79"/>
+                    <COMPID name="repertoireTrajets" mc="Standard.AssociationEnd" uid="915997d1-a682-4198-b868-c0c77e85fa79"/>
                   </COMP>
                   <COMP relation="Association">
                     <OBJECT>

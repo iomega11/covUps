@@ -55,45 +55,6 @@
             </COMP>
           </DEPENDENCIES>
         </OBJECT>
-        <OBJECT>
-          <ID name="getEtat" mc="Standard.Operation" uid="d68a67aa-a2fa-4b2d-9a13-3200119d20da"/>
-          <ATTRIBUTES>
-            <ATT name="Concurrency">false</ATT>
-            <ATT name="Final">false</ATT>
-            <ATT name="Passing">MethodOut</ATT>
-            <ATT name="Visibility">Public</ATT>
-            <ATT name="IsClass">false</ATT>
-            <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[getEtat]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <COMP relation="Return">
-              <OBJECT>
-                <ID name="p1" mc="Standard.Parameter" uid="5d681e18-384e-40c0-99a6-222a941e0de3"/>
-                <ATTRIBUTES>
-                  <ATT name="ParameterPassing">In</ATT>
-                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
-                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
-                  <ATT name="TypeConstraint"></ATT>
-                  <ATT name="DefaultValue"></ATT>
-                  <ATT name="IsOrdered">false</ATT>
-                  <ATT name="IsUnique">false</ATT>
-                  <ATT name="IsException">false</ATT>
-                  <ATT name="IsStream">false</ATT>
-                  <ATT name="Effect">ReadEffect</ATT>
-                  <ATT name="Name"><![CDATA[p1]]></ATT>
-                  <ATT name="status">1970354901745664</ATT>
-                </ATTRIBUTES>
-                <DEPENDENCIES>
-                  <LINK relation="Type">
-                    <FOREIGNID name="string" mc="Standard.DataType" uid="00000004-0000-000d-0000-000000000000"/>
-                  </LINK>
-                </DEPENDENCIES>
-              </OBJECT>
-            </COMP>
-          </DEPENDENCIES>
-        </OBJECT>
       </COMP>
       <COMP relation="OwnedAttribute">
         <OBJECT>
@@ -108,7 +69,7 @@
             <ATT name="IsUnique">false</ATT>
             <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
             <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
-            <ATT name="Visibility">Public</ATT>
+            <ATT name="Visibility">Private</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
             <ATT name="Name"><![CDATA[modele]]></ATT>
@@ -132,7 +93,7 @@
             <ATT name="IsUnique">false</ATT>
             <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
             <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
-            <ATT name="Visibility">Public</ATT>
+            <ATT name="Visibility">Private</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
             <ATT name="Name"><![CDATA[nbPlaces]]></ATT>
@@ -156,7 +117,7 @@
             <ATT name="IsUnique">false</ATT>
             <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
             <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
-            <ATT name="Visibility">Public</ATT>
+            <ATT name="Visibility">Private</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
             <ATT name="Name"><![CDATA[couleur]]></ATT>
@@ -180,7 +141,7 @@
             <ATT name="IsUnique">false</ATT>
             <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
             <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
-            <ATT name="Visibility">Public</ATT>
+            <ATT name="Visibility">Private</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
             <ATT name="Name"><![CDATA[etat]]></ATT>
@@ -194,11 +155,8 @@
         </OBJECT>
       </COMP>
       <COMP relation="OwnedEnd">
-        <REFOBJ>
-          <ID name="trajetsEffectués" mc="Standard.AssociationEnd" uid="9246a278-546a-4e19-b03f-3bd41d04f587"/>
-        </REFOBJ>
         <OBJECT>
-          <ID name="propriétaire" mc="Standard.AssociationEnd" uid="e5591609-7494-4cd9-9d6b-ab91d2ac14b1"/>
+          <ID name="trajetsEffectués" mc="Standard.AssociationEnd" uid="9246a278-546a-4e19-b03f-3bd41d04f587"/>
           <ATTRIBUTES>
             <ATT name="Aggregation">KindIsAssociation</ATT>
             <ATT name="IsChangeable">true</ATT>
@@ -206,18 +164,21 @@
             <ATT name="IsDerived">false</ATT>
             <ATT name="IsOrdered">false</ATT>
             <ATT name="IsUnique">false</ATT>
-            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
-            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
-            <ATT name="Visibility">Public</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[*]]></ATT>
+            <ATT name="Visibility">Private</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[propriétaire]]></ATT>
+            <ATT name="Name"><![CDATA[trajetsEffectués]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
+            <LINK relation="Target">
+              <ID name="Trajet" mc="Standard.Class" uid="26154eef-77a6-4e8f-9b05-495d87cd0641"/>
+            </LINK>
             <COMP relation="Opposite">
               <OBJECT>
-                <ID name="voituresEnregistrées" mc="Standard.AssociationEnd" uid="3fee761a-3bd5-4dec-ade8-80ac7190a781"/>
+                <ID name="voitureUtilisée" mc="Standard.AssociationEnd" uid="cbde73d8-4a4f-44f9-9670-df0730c95012"/>
                 <ATTRIBUTES>
                   <ATT name="Aggregation">KindIsAssociation</ATT>
                   <ATT name="IsChangeable">true</ATT>
@@ -225,21 +186,24 @@
                   <ATT name="IsDerived">false</ATT>
                   <ATT name="IsOrdered">false</ATT>
                   <ATT name="IsUnique">false</ATT>
-                  <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
-                  <ATT name="MultiplicityMax"><![CDATA[*]]></ATT>
-                  <ATT name="Visibility">Public</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Visibility">Private</ATT>
                   <ATT name="IsClass">false</ATT>
                   <ATT name="IsAbstract">false</ATT>
-                  <ATT name="Name"><![CDATA[voituresEnregistrées]]></ATT>
+                  <ATT name="Name"><![CDATA[voitureUtilisée]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
+                  <LINK relation="Target">
+                    <ID name="Voiture" mc="Standard.Class" uid="6dfaff66-0d59-4d87-9b80-1b4ddb7ba629"/>
+                  </LINK>
                   <COMP relation="Opposite">
-                    <COMPID name="propriétaire" mc="Standard.AssociationEnd" uid="e5591609-7494-4cd9-9d6b-ab91d2ac14b1"/>
+                    <COMPID name="trajetsEffectués" mc="Standard.AssociationEnd" uid="9246a278-546a-4e19-b03f-3bd41d04f587"/>
                   </COMP>
                   <COMP relation="Association">
                     <OBJECT>
-                      <ID name="" mc="Standard.Association" uid="088c3611-99b6-4ae7-b3f5-a1935e88c071"/>
+                      <ID name="" mc="Standard.Association" uid="0fcc7989-dc51-49f1-826b-055953556eab"/>
                       <ATTRIBUTES>
                         <ATT name="Name"></ATT>
                         <ATT name="status">1970354901745664</ATT>
@@ -251,10 +215,13 @@
               </OBJECT>
             </COMP>
             <COMP relation="Association">
-              <COMPID name="" mc="Standard.Association" uid="088c3611-99b6-4ae7-b3f5-a1935e88c071"/>
+              <COMPID name="" mc="Standard.Association" uid="0fcc7989-dc51-49f1-826b-055953556eab"/>
             </COMP>
           </DEPENDENCIES>
         </OBJECT>
+        <REFOBJ>
+          <ID name="propriétaire" mc="Standard.AssociationEnd" uid="e5591609-7494-4cd9-9d6b-ab91d2ac14b1"/>
+        </REFOBJ>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

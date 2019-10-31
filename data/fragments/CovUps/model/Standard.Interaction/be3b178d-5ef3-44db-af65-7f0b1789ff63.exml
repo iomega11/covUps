@@ -390,13 +390,13 @@
           <DEPENDENCIES>
             <COMP relation="SentMessage">
               <OBJECT>
-                <ID name="Recherche()" mc="Standard.Message" uid="e1d0365f-672b-4513-8742-ef68a4ebfac1"/>
+                <ID name="new Recherche()" mc="Standard.Message" uid="e1d0365f-672b-4513-8742-ef68a4ebfac1"/>
                 <ATTRIBUTES>
                   <ATT name="Argument"></ATT>
                   <ATT name="KindOfMessage">CompleteKind</ATT>
                   <ATT name="SortOfMessage">CreateMessage</ATT>
                   <ATT name="Sequence"><![CDATA[3]]></ATT>
-                  <ATT name="Name"><![CDATA[Recherche()]]></ATT>
+                  <ATT name="Name"><![CDATA[new Recherche()]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
@@ -3587,7 +3587,7 @@
           <DEPENDENCIES>
             <LINK relation="Represented">
               <REFOBJ>
-                <ID name="r1" mc="Standard.BindableInstance" uid="8fac1df4-5bf8-4f62-b773-cc0a0545f571"/>
+                <ID name="r9" mc="Standard.BindableInstance" uid="f86f1c8f-88a3-4b55-87e8-de692087498b"/>
               </REFOBJ>
             </LINK>
           </DEPENDENCIES>
@@ -3845,6 +3845,22 @@
                 <DEPENDENCIES>
                   <LINK relation="Base">
                     <ID name="ProfilRepository" mc="Standard.Class" uid="ce57214d-1836-42ad-b483-ca5eed0478d9"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="r9" mc="Standard.BindableInstance" uid="f86f1c8f-88a3-4b55-87e8-de692087498b"/>
+                <ATTRIBUTES>
+                  <ATT name="IsConstant">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Value"></ATT>
+                  <ATT name="Name"><![CDATA[r9]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <ID name="RechercheTrajetBoundary" mc="Standard.Class" uid="b6a4a604-122a-4844-ad4b-c71308724452"/>
                   </LINK>
                 </DEPENDENCIES>
               </OBJECT>

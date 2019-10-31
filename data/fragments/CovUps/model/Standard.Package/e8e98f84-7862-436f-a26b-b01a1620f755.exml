@@ -20,8 +20,6 @@
       <COMP relation="OwnedElement">
         <COMPID name="Profil" mc="Standard.Class" uid="65aec15d-d88e-46ef-8d43-e0ecaa21454b"/>
         <COMPID name="Trajet" mc="Standard.Class" uid="26154eef-77a6-4e8f-9b05-495d87cd0641"/>
-        <COMPID name="Message" mc="Standard.Class" uid="3c77de52-58d5-403c-addd-0e48b3fac00f"/>
-        <COMPID name="Evaluation" mc="Standard.Class" uid="d9fcc1a0-9929-4a93-a714-a751e65816bf"/>
         <COMPID name="Publier un nouveau trajet" mc="Standard.UseCase" uid="3e0772a0-7b86-4441-a2e9-a1022025014e"/>
         <COMPID name="Rechercher parmi les trajets proposés" mc="Standard.UseCase" uid="f7c371ea-3e35-4c23-9847-013880408c76"/>
         <COMPID name="Envoyer un message" mc="Standard.UseCase" uid="ad003671-c49b-4a81-9fa9-18aa8e885caa"/>
@@ -52,6 +50,9 @@
         <COMPID name="Recherche" mc="Standard.Class" uid="b531f31a-af19-460b-a8ef-95b4d9fca861"/>
         <COMPID name="VoitureRepository" mc="Standard.Class" uid="f1f01cf8-fec9-47c0-b921-e8eee8dfe5d5"/>
         <COMPID name="ProfilRepository" mc="Standard.Class" uid="ce57214d-1836-42ad-b483-ca5eed0478d9"/>
+        <COMPID name="RechercheTrajetBoundary" mc="Standard.Class" uid="b6a4a604-122a-4844-ad4b-c71308724452"/>
+        <COMPID name="Message" mc="Standard.Class" uid="945c86f3-cbdc-4394-b67b-9682566d665d"/>
+        <COMPID name="Evaluation" mc="Standard.Class" uid="08876ed5-c1dd-46db-9164-1f6fe84b403d"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="Diagramme de classes métier" mc="Standard.ClassDiagram" uid="151fb668-c84f-470b-b911-c4e45eb92e45"/>
