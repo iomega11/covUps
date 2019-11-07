@@ -2,7 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="TrajetRepository" version="4">
   <OBJECT>
     <ID name="TrajetRepository" mc="Standard.Class" uid="55587dae-cc51-4916-a2f8-df780f3b34ce"/>
-    <PID name="covups" mc="Standard.Package" uid="e8e98f84-7862-436f-a26b-b01a1620f755"/>
+    <PID name="Repository" mc="Standard.Package" uid="83fa4e54-00a8-4e6e-af67-01a0e454e4a1"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
       <ATT name="IsMain">false</ATT>

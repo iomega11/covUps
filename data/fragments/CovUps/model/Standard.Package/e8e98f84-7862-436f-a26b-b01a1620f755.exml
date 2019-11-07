@@ -18,8 +18,6 @@
         <COMPID name="Interaction" mc="Standard.Interaction" uid="be3b178d-5ef3-44db-af65-7f0b1789ff63"/>
       </COMP>
       <COMP relation="OwnedElement">
-        <COMPID name="Profil" mc="Standard.Class" uid="65aec15d-d88e-46ef-8d43-e0ecaa21454b"/>
-        <COMPID name="Trajet" mc="Standard.Class" uid="26154eef-77a6-4e8f-9b05-495d87cd0641"/>
         <COMPID name="Publier un nouveau trajet" mc="Standard.UseCase" uid="3e0772a0-7b86-4441-a2e9-a1022025014e"/>
         <COMPID name="Rechercher parmi les trajets proposés" mc="Standard.UseCase" uid="f7c371ea-3e35-4c23-9847-013880408c76"/>
         <COMPID name="Envoyer un message" mc="Standard.UseCase" uid="ad003671-c49b-4a81-9fa9-18aa8e885caa"/>
@@ -30,7 +28,6 @@
         <COMPID name="Réserver un taxi en urgence" mc="Standard.UseCase" uid="48fe16e0-66e6-4ce9-b627-576ca505fe5e"/>
         <COMPID name="Évaluer un utilisateur suite à un trajet" mc="Standard.UseCase" uid="3a645647-d2ff-48ef-9655-3f3da0081b8c"/>
         <COMPID name="S'identifier" mc="Standard.UseCase" uid="3bafcdcb-5411-42ac-b85e-2ca145db1a6a"/>
-        <COMPID name="Voiture" mc="Standard.Class" uid="6dfaff66-0d59-4d87-9b80-1b4ddb7ba629"/>
         <COMPID name="Utilisateur" mc="Standard.Actor" uid="6aa344ce-f588-45cb-bbaa-21addeab9ecb"/>
         <COMPID name="Capitole Taxi" mc="Standard.Actor" uid="b4bea06a-e840-4886-901e-f773e87acfae"/>
         <COMPID name="Service d'authentification de l'UPS" mc="Standard.Actor" uid="882d612e-2e39-4994-9084-4bf95a2e2a2c"/>
@@ -45,14 +42,13 @@
         <COMPID name="Modifier une voiture" mc="Standard.UseCase" uid="ef181c05-3fd1-4fd4-9074-0165413b2a61"/>
         <COMPID name="Afficher un trajet en détail" mc="Standard.UseCase" uid="76a9b9eb-da70-422f-bde7-d5da7554b413"/>
         <COMPID name="Plateforme InfoPoints" mc="Standard.Actor" uid="c909508d-f632-4e12-8663-4169ad29c812"/>
-        <COMPID name="TrajetRepository" mc="Standard.Class" uid="55587dae-cc51-4916-a2f8-df780f3b34ce"/>
-        <COMPID name="RechercheTrajetControl" mc="Standard.Class" uid="5c0ec432-71db-4f1d-8209-6cd2650002d8"/>
-        <COMPID name="Recherche" mc="Standard.Class" uid="b531f31a-af19-460b-a8ef-95b4d9fca861"/>
-        <COMPID name="VoitureRepository" mc="Standard.Class" uid="f1f01cf8-fec9-47c0-b921-e8eee8dfe5d5"/>
-        <COMPID name="ProfilRepository" mc="Standard.Class" uid="ce57214d-1836-42ad-b483-ca5eed0478d9"/>
-        <COMPID name="RechercheTrajetBoundary" mc="Standard.Class" uid="b6a4a604-122a-4844-ad4b-c71308724452"/>
         <COMPID name="Message" mc="Standard.Class" uid="945c86f3-cbdc-4394-b67b-9682566d665d"/>
         <COMPID name="Evaluation" mc="Standard.Class" uid="08876ed5-c1dd-46db-9164-1f6fe84b403d"/>
+        <COMPID name="Control" mc="Standard.Package" uid="b7c77b10-17f7-4a35-ad98-7b399f870e27"/>
+        <COMPID name="Boundary" mc="Standard.Package" uid="0b54690d-130f-4431-9284-8f95b2687b65"/>
+        <COMPID name="Entity" mc="Standard.Package" uid="cef52b84-d53c-416f-8b6e-6e5f0b8795c1"/>
+        <COMPID name="Repository" mc="Standard.Package" uid="83fa4e54-00a8-4e6e-af67-01a0e454e4a1"/>
+        <COMPID name="Utils" mc="Standard.Package" uid="d15b3372-c1da-4f05-bb20-8f335a653c4b"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="Diagramme de classes métier" mc="Standard.ClassDiagram" uid="151fb668-c84f-470b-b911-c4e45eb92e45"/>

@@ -2,7 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="RechercheTrajetControl" version="4">
   <OBJECT>
     <ID name="RechercheTrajetControl" mc="Standard.Class" uid="5c0ec432-71db-4f1d-8209-6cd2650002d8"/>
-    <PID name="covups" mc="Standard.Package" uid="e8e98f84-7862-436f-a26b-b01a1620f755"/>
+    <PID name="Control" mc="Standard.Package" uid="b7c77b10-17f7-4a35-ad98-7b399f870e27"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
       <ATT name="IsMain">false</ATT>
@@ -344,6 +344,9 @@ En sortie on retrouve la liste a afficher sous forme de String.]]></ATT>
             </COMP>
           </DEPENDENCIES>
         </OBJECT>
+      </COMP>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="State Machine" mc="Standard.StateMachine" uid="64fa3a7a-4e07-4ee7-83f2-87a7ac088303"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

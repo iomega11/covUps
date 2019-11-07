@@ -2,7 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="VoitureRepository" version="4">
   <OBJECT>
     <ID name="VoitureRepository" mc="Standard.Class" uid="f1f01cf8-fec9-47c0-b921-e8eee8dfe5d5"/>
-    <PID name="covups" mc="Standard.Package" uid="e8e98f84-7862-436f-a26b-b01a1620f755"/>
+    <PID name="Repository" mc="Standard.Package" uid="83fa4e54-00a8-4e6e-af67-01a0e454e4a1"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
       <ATT name="IsMain">false</ATT>
@@ -103,9 +103,25 @@
               <ID name="Voiture" mc="Standard.Class" uid="6dfaff66-0d59-4d87-9b80-1b4ddb7ba629"/>
             </LINK>
             <COMP relation="Opposite">
-              <REFOBJ>
+              <OBJECT>
                 <ID name="" mc="Standard.AssociationEnd" uid="d3b760a3-0e7d-47b0-96c5-eafe82df71e9"/>
-              </REFOBJ>
+                <ATTRIBUTES>
+                  <ATT name="Aggregation">KindIsAssociation</ATT>
+                  <ATT name="IsChangeable">true</ATT>
+                  <ATT name="Changeable">ReadWrite</ATT>
+                  <ATT name="IsDerived">false</ATT>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Visibility">Public</ATT>
+                  <ATT name="IsClass">false</ATT>
+                  <ATT name="IsAbstract">false</ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
             </COMP>
             <COMP relation="Association">
               <OBJECT>

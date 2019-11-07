@@ -2,7 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Profil" version="4">
   <OBJECT>
     <ID name="Profil" mc="Standard.Class" uid="65aec15d-d88e-46ef-8d43-e0ecaa21454b"/>
-    <PID name="covups" mc="Standard.Package" uid="e8e98f84-7862-436f-a26b-b01a1620f755"/>
+    <PID name="Entity" mc="Standard.Package" uid="cef52b84-d53c-416f-8b6e-6e5f0b8795c1"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
       <ATT name="IsMain">false</ATT>
